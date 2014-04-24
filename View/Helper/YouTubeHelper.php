@@ -16,8 +16,7 @@
 			
 			if ($video)
 				return '<iframe width="'.$width.'" height="'.$height.'" src="//www.youtube.com/embed/'.$video.'" frameborder="0" allowfullscreen></iframe>';
-			else 
-				return '';
+			return '';
 		}
 
 		public function getThumb($url, $opt=2, $size="small") {
